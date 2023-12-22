@@ -2,7 +2,12 @@
 
 
 <p align="center">
-<img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/blob/main/Case%20Study%20Analyzing%20Customer%20Churn%20in%20Power%20BI.gif"/></p>
+<img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/blob/main/Case%20Study%20Analyzing%20Customer%20Churn%20in%20Power%20BI.gif"/>
+<img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/blob/main/v1%20Case%20Study%20Analyzing%20Customer%20Churn%20in%20Power%20BI.gif"/>
+<img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/blob/main/v2%20Case%20Study%20Analyzing%20Customer%20Churn%20in%20Power%20BI.gif"/>
+<img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/blob/main/v3%20Case%20Study%20Analyzing%20Customer%20Churn%20in%20Power%20BI.gif"/>
+<img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/blob/main/v4%20Case%20Study%20Analyzing%20Customer%20Churn%20in%20Power%20BI.gif"/>
+</p>
 
 # Case Study: Analyzing Customer Churn in Power BI
 
