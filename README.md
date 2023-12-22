@@ -7,14 +7,12 @@
 
 # Case Study: Analyzing Customer Churn in Power BI
 
-This study isn't just about numbers, it's about figuring out why customers leave and how to make them stay. We'll use Power BI to dig into customer data and find the clues. It's like being a detective, but instead of solving crimes, we're solving the mystery of churn.
+For subscription-based businesses, mitigating customer churn stands as a paramount objective.
 
-Our goal isn't just to know how many customers are leaving, but to understand why they're leaving and what we can do to stop it. It's all about using data to make customers happier and keep them coming back.
+In this Power BI case study, our focus centers on scrutinizing a dataset from Databel, a telecom company, to comprehensively assess their churn rates. However, this study transcends mere numerical analysis; its core objective is to discern the reasons behind customer departures and strategize means to retain them.
 
+Our goal isn't just to measure churn, but to understand its root causes. This deep dive will pave the way for targeted interventions, personalized experiences, and ultimately, happier, more loyal customers.
 
-## Activity
-
-For subscription-based businesses, reducing customer churn is a top priority. In this Power BI case study, we will investigate a dataset from an example telecom company called Databel and analyze their churn rates.
 
 ## Dataset Context
 
