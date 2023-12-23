@@ -30,10 +30,10 @@ This dataset holds info on customers, like IDs, if they've churned (stopped usin
 
 - Loading and Transforming .csv to Power BI:
   - This step involves bringing in the data from a .csv file into Power BI, where we clean it up, organize it, and prepare it for analysis such as checking distinct values and format of each columns that are need for the analysis. Also, columns that are not needed were dropped to facilitate better response time at later queries.
-  
 
 <p align="center">
-<img src="(https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/e088b4ac-5474-4c49-8ac0-d36b13630e3e)"/></p>
+<img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/e088b4ac-5474-4c49-8ac0-d36b13630e3e"/>
+</p>
 
 - DAX Modeling (FACT and DIMENSION tables) and Verfication of Relationships:
 
