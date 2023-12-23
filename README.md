@@ -33,17 +33,17 @@ This dataset holds info on customers, like IDs, if they've churned (stopped usin
   
 
 <p align="center">
-<img src="![image](https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/e088b4ac-5474-4c49-8ac0-d36b13630e3e)"/></p>
+<img src="(https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/e088b4ac-5474-4c49-8ac0-d36b13630e3e)"/></p>
 
 - DAX Modeling (FACT and DIMENSION tables) and Verfication of Relationships:
 
   - DAX Modeling is where we apply calculations and organize our data into FACT and DIMENSION tables. These tables form the backbone of our analysis, allowing us to make sense of complex relationships within the data. The fact tables are the measureable events in the data such as customer interactions and charges per customer ID. Meanwhile, the dimension tables store description attributes gender, location and type of account does the customer have. The goal is to establish and simplify the complex relationship of the columns to have a better understanding for data analysis.
 
-<p align="center"><img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/94a4005d-2620-4aa9-8ea9-d288f078fd40"/></p>
+<p align="center"><br><img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/94a4005d-2620-4aa9-8ea9-d288f078fd40"/></p>
 
   - Afterwards, we are going to verify the relationship properties of each tables that were created as shown below:
 
-<p align="center"><img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/bc291a78-ee27-4e31-a015-e5191b2e31bc"/></p>
+<p align="center"><br><img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/bc291a78-ee27-4e31-a015-e5191b2e31bc"/></p>
 
 
 - Implementation of Measures:
@@ -84,48 +84,61 @@ This dataset holds info on customers, like IDs, if they've churned (stopped usin
     - Tables & Visualizations:
         I haphazardly made initial visual presentation to have basic insights from the dataset in whihch helped me organize in making my low-fidelity design.
 
+<p align="center"><br></p>
 > Churn Demographics
 <p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/a786f7c9-56ba-4b50-91cf-2b0fae41b450"/><br></p>
 
+<p align="center"><br></p>
 > Groups and Categories
 <p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/f6e6c863-182a-42d9-a13c-e6eafb63945f"/><br></p>
 
+<p align="center"><br></p>
 > Contract Type
 <p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/d54f9e69-d375-407b-ac3b-2fbfc7c96ca2"/><br></p>
 
+<p align="center"><br></p>
 > Age Groups
 <p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/15988a7d-638b-4c75-ada1-20a3b66c6216"/><br></p>
 
 
+<p align="center"><br></p>
+<p align="center"><br></p>
 - Low Fidelity Design:
+  - Initially, I wanted to make a low fidelity design. However, since there are no board members or immediate supervisors that will have to check my design --- I opted to just make the backdrop and directly worked on Power BI visualization reporting.
 
-Initially, I wanted to make a low fidelity design. However, since there are no board members or immediate supervisors that will have to check my design --- I opted to just make the backdrop and directly worked on Power BI visualization reporting.
-
+<p align="center"><br></p>
   > I used powerpoint to make a backdrop and saved is as .svg to have the backdrop be properly scaled once used in Power BI dashboad.
 <p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/60726403-6991-4c70-b30a-25ad5854ad9f"/><br></p>
 
+<p align="center"><br></p>
   >The vertical panel line will serve as the hold of navigation options, and yellow line will be a connector for a fly-out panel for a dynamic visual transmission since I planned to have at least three (3) set of reports to be integrated in my dashboard as shown below:
 <p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/31b7c34f-9b3b-41b9-95e8-4c4cdae002a7"/><br></p>
 
+<p align="center"><br></p>
+<p align="center"><br></p>
 - Page Navigations Using Buttons and Bookmarks:
   - Implement buttons and bookmarks for seamless navigation between report pages, creating buttons and bookmarks that allow users to move seamlessly between different sections for a smoother experience.
+<p align="center"><br></p>
 <p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/67e6cf39-760d-4209-9c70-b9c08366e982"/><br></p>
 
+<p align="center"><br></p>
+<p align="center"><br></p>
 - Breakdown of Visual Formulas:
   - The most tricky part (for me) in the visualization are the call-out cards or values in which I wanted to display the top churning categories and such for each segment the I wanted to visualize. In order to organize my thouhghts first, I created visual tables that will serve as holder for each report page with nested folders that are holding the formulas that I will be needing to have a dynamic title, subtitle and call-out values in my call-out cards as show below:
 
+<p align="center"><br></p>
 > Call-Out Cards
 <p> 
     <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/034746b3-8490-492b-bcb8-88353573f2d7"/>&nbsp;
     <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/f0c31ef4-2020-4f46-8e56-219bb6c22b3b"/>&nbsp;
 </p>
 
-
+<p align="center"><br></p>
 > Visual Table Holders
 <p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/933313cf-0c37-4af4-867d-391eb8a7f4f3"/><br></p>
 
+<p align="center"><br></p>
 > DAX Formulas used in Dynamic Title, Subtitles and Call-out Values
-
 <dl>
   <dt><p>Title</p></dd>
   <dd><p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/1445975b-cf31-44b8-be9c-a61fc9c84e73"/><br></p></dd>
@@ -170,8 +183,8 @@ Dashboard Summary:
 Demographic Breakdown:
 - In terms of demographic breakdown, the "age bin:85" has the highest churn rate accross age groups. However, this does not mean that it is the most needed attention accross the age bins. Instead, the top contributor is from the "age bin: 25" that has top churning age as shown below:
 
-  <dl>
-  <dt><p>At Age Bin:85, Churn Rate is as high as 52%.</p>
+<dl>
+  <dt><p>At Age Bin: 85, Churn Rate is as high as 52%.</p>
       <p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/566e07da-0866-4037-8faa-f3637e90ce3c"/><br></p></dt>
 
   <dt><p>However, the Top Churning Age is 29 wherein belongs to Age Bin: 25. This churning age bin contributes 0.84% out of 26.86% of the overall churn rate.</p>
@@ -184,7 +197,7 @@ Demographic Breakdown:
 Account Breakdown:
 - In terms of account breakdown, the "Accumulated Service Calls: 4 & 5" has the highest churn rate over the segment. However, this does not mean that it is the most needed attention. Just like the age bin, the top contributor is from the segement "Accumulated Service Calls: 0" as shown below:
 
-  <dl>
+<dl>
   <dt><p>"Accumulated Service Calls: 4 & 5", Churn Rate is as high as 100%.</p>
       <p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/e9e0e3af-c810-47c5-87fa-b7c6dcd1e324"/><br></p></dt>
 
@@ -199,12 +212,15 @@ Account Breakdown:
 </dl>
 
 
+## Summary, Conclusion & Recommendations:
 ---
+
+### *In summary, this project encapsulates a thorough and detailed data analysis aimed at understanding and curbing customer churn in various business settings. Our analysis revealed the key finding stipulated above, paving the way for targeted interventions. By implementing the recommendations, it has the potential to mitigate churning of customers, ultimately leading to increased customer loyalty and brand success.*
+
 <p align="center">
 <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/blob/main/Case%20Study%20Analyzing%20Customer%20Churn%20in%20Power%20BI.gif"/>
 </p>
 
-### *In summary, this project encapsulates a thorough and detailed data analysis aimed at understanding and curbing customer churn in various business settings. Our analysis revealed the key finding stipulated above, paving the way for targeted interventions. By implementing the recommendations, it has the potential to mitigate churning of customers, ultimately leading to increased customer loyalty and brand success.*
 
 ### *Further research could explore for time-series (if the dataset is available, since in this dataset it's not available) related insights to deepen our understanding of churn behavior and its multifaceted drivers.*
 
