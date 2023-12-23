@@ -74,8 +74,10 @@ This dataset holds info on customers, like IDs, if they've churned (stopped usin
     <td width="33%" align="center">Churned users are computed using COUNTROWS and nested FILTER function where Churn Code is "NO", means that the user unsubscribed with the services.</td>
   </tr>
 </table>
+<p align="center"><br></p>
 
   - After making the measures, we nested them inside a folder to have them organized and easier access along with the fact and dimension tables we made as shown below in the data panel:
+    
 <p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/6dffa515-24f8-4d5e-afee-dda2500d2994"/></p>
 
 - Tables and Visualizations:
@@ -85,37 +87,44 @@ This dataset holds info on customers, like IDs, if they've churned (stopped usin
         I haphazardly made initial visual presentation to have basic insights from the dataset in whihch helped me organize in making my low-fidelity design.
 
 <p align="center"><br></p>
+
 > Churn Demographics
 <p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/a786f7c9-56ba-4b50-91cf-2b0fae41b450"/><br></p>
 
 <p align="center"><br></p>
+
 > Groups and Categories
 <p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/f6e6c863-182a-42d9-a13c-e6eafb63945f"/><br></p>
 
 <p align="center"><br></p>
+
 > Contract Type
 <p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/d54f9e69-d375-407b-ac3b-2fbfc7c96ca2"/><br></p>
 
 <p align="center"><br></p>
+
 > Age Groups
 <p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/15988a7d-638b-4c75-ada1-20a3b66c6216"/><br></p>
 
 
 <p align="center"><br></p>
-<p align="center"><br></p>
+
 - Low Fidelity Design:
   - Initially, I wanted to make a low fidelity design. However, since there are no board members or immediate supervisors that will have to check my design --- I opted to just make the backdrop and directly worked on Power BI visualization reporting.
 
 <p align="center"><br></p>
+
   > I used powerpoint to make a backdrop and saved is as .svg to have the backdrop be properly scaled once used in Power BI dashboad.
 <p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/60726403-6991-4c70-b30a-25ad5854ad9f"/><br></p>
 
 <p align="center"><br></p>
+
   >The vertical panel line will serve as the hold of navigation options, and yellow line will be a connector for a fly-out panel for a dynamic visual transmission since I planned to have at least three (3) set of reports to be integrated in my dashboard as shown below:
 <p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/31b7c34f-9b3b-41b9-95e8-4c4cdae002a7"/><br></p>
 
 <p align="center"><br></p>
 <p align="center"><br></p>
+
 - Page Navigations Using Buttons and Bookmarks:
   - Implement buttons and bookmarks for seamless navigation between report pages, creating buttons and bookmarks that allow users to move seamlessly between different sections for a smoother experience.
 <p align="center"><br></p>
@@ -127,17 +136,18 @@ This dataset holds info on customers, like IDs, if they've churned (stopped usin
   - The most tricky part (for me) in the visualization are the call-out cards or values in which I wanted to display the top churning categories and such for each segment the I wanted to visualize. In order to organize my thouhghts first, I created visual tables that will serve as holder for each report page with nested folders that are holding the formulas that I will be needing to have a dynamic title, subtitle and call-out values in my call-out cards as show below:
 
 <p align="center"><br></p>
+
 > Call-Out Cards
 <p> 
     <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/034746b3-8490-492b-bcb8-88353573f2d7"/>&nbsp;
     <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/f0c31ef4-2020-4f46-8e56-219bb6c22b3b"/>&nbsp;
 </p>
-
 <p align="center"><br></p>
+
 > Visual Table Holders
 <p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/933313cf-0c37-4af4-867d-391eb8a7f4f3"/><br></p>
-
 <p align="center"><br></p>
+
 > DAX Formulas used in Dynamic Title, Subtitles and Call-out Values
 <dl>
   <dt><p>Title</p></dd>
