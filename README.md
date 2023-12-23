@@ -51,27 +51,29 @@ This dataset holds info on customers, like IDs, if they've churned (stopped usin
 
 <table align="center">
   <tr>
-    <td width="33%" align="center">Measures (.shape)</td>
-    <td width="33%" align="center">Formula Syntax</td>
+    <td width="33%" align="center">Measures</td>
     <td width="33%" align="center">Description (Remarks)</td>
+    <td width="33%" align="center">Formula Syntax</td>
+
   </tr>
   <tr>
     <td width="33%" align="center">Churn Count</td>
-    <td width="33%" align="center"><p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/ea766066-adf4-416f-ba98-09c22cb31c38)"/></p></td>
     <td width="33%" align="center">Churned users means that the user unsubscribed with the services.</td>
+    <td width="33%" align="center"><p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/ea766066-adf4-416f-ba98-09c22cb31c38)"/></p></td>
+
     
   </tr>
 
   <tr>
     <td width="33%" align="center">User Count</td>
-    <td width="33%" align="center"><p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/fe1210de-87cc-417a-a9ab-672168baaa3d"/></p></td>
     <td width="33%" align="center">User count is the number of overall customers (churned and unchurned). </td>
+    <td width="33%" align="center"><p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/fe1210de-87cc-417a-a9ab-672168baaa3d"/></p></td>
   </tr>
 
   <tr>
     <td width="33%" align="center">Churn Rate</td>
-    <td width="33%" align="center"><p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/2fa66c96-c8ac-4f9d-8e8a-79c6d9c67117"/></p></td>
     <td width="33%" align="center">Churned users are computed using COUNTROWS and nested FILTER function where Churn Code is "NO", means that the user unsubscribed with the services.</td>
+    <td width="33%" align="center"><p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/2fa66c96-c8ac-4f9d-8e8a-79c6d9c67117"/></p></td>
   </tr>
 </table>
 <p align="center"><br></p>
@@ -123,7 +125,6 @@ This dataset holds info on customers, like IDs, if they've churned (stopped usin
 <p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/31b7c34f-9b3b-41b9-95e8-4c4cdae002a7"/><br></p>
 
 <p align="center"><br></p>
-<p align="center"><br></p>
 
 - Page Navigations Using Buttons and Bookmarks:
   - Implement buttons and bookmarks for seamless navigation between report pages, creating buttons and bookmarks that allow users to move seamlessly between different sections for a smoother experience.
@@ -131,7 +132,7 @@ This dataset holds info on customers, like IDs, if they've churned (stopped usin
 <p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/67e6cf39-760d-4209-9c70-b9c08366e982"/><br></p>
 
 <p align="center"><br></p>
-<p align="center"><br></p>
+
 - Breakdown of Visual Formulas:
   - The most tricky part (for me) in the visualization are the call-out cards or values in which I wanted to display the top churning categories and such for each segment the I wanted to visualize. In order to organize my thouhghts first, I created visual tables that will serve as holder for each report page with nested folders that are holding the formulas that I will be needing to have a dynamic title, subtitle and call-out values in my call-out cards as show below:
 
@@ -166,13 +167,15 @@ This dataset holds info on customers, like IDs, if they've churned (stopped usin
 - Wrapping Up Interactions among Slicers and Dynamic Visuals:
   - I explored the slicers to dynamically filter and interact with visuals for advanced exploration. This is to filter the needed visuals that are supposedly not be affected by the slicers ensuring that all the different elements within the report—like slicers (interactive filters) and dynamic visuals—work together harmoniously, allowing users to interact and explore the data effortlessly as shown below:
 
+<p align="center"><br></p>
 <p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/97ab1138-de60-47e7-9059-65709ce8adc0"/><br></p>
 
+<p align="center"><br></p>
 
 ## Results and Discussion
 
 Dashboard Summary:
-- Pareto Chart were added in the visualization to determine and identify critical key figures to be worked out by the company to prevent churning as shown below:
+> Pareto Chart were added in the visualization to determine and identify critical key figures to be worked out by the company to prevent churning as shown below:
 
 <dl>
   <dt><p>Age Bin</p></dd>
@@ -187,11 +190,12 @@ Dashboard Summary:
   </dd>
 </dl>
 
-- Overall, the top contributors of the churn rate are as follows:
-    <p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/f95bcfa5-4747-450c-b72b-d4793c88021e"/><br></p>
+#### Overall, the top contributors of the churn rate are as follows:
+
+<p align="center"> <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/f95bcfa5-4747-450c-b72b-d4793c88021e"/><br></p>
 
 Demographic Breakdown:
-- In terms of demographic breakdown, the "age bin:85" has the highest churn rate accross age groups. However, this does not mean that it is the most needed attention accross the age bins. Instead, the top contributor is from the "age bin: 25" that has top churning age as shown below:
+> In terms of demographic breakdown, the "age bin:85" has the highest churn rate accross age groups. However, this does not mean that it is the most needed attention accross the age bins. Instead, the top contributor is from the "age bin: 25" that has top churning age as shown below:
 
 <dl>
   <dt><p>At Age Bin: 85, Churn Rate is as high as 52%.</p>
@@ -205,7 +209,7 @@ Demographic Breakdown:
 </dl>
 
 Account Breakdown:
-- In terms of account breakdown, the "Accumulated Service Calls: 4 & 5" has the highest churn rate over the segment. However, this does not mean that it is the most needed attention. Just like the age bin, the top contributor is from the segement "Accumulated Service Calls: 0" as shown below:
+> In terms of account breakdown, the "Accumulated Service Calls: 4 & 5" has the highest churn rate over the segment. However, this does not mean that it is the most needed attention. Just like the age bin, the top contributor is from the segement "Accumulated Service Calls: 0" as shown below:
 
 <dl>
   <dt><p>"Accumulated Service Calls: 4 & 5", Churn Rate is as high as 100%.</p>
@@ -225,13 +229,13 @@ Account Breakdown:
 ## Summary, Conclusion & Recommendations:
 ---
 
-### *In summary, this project encapsulates a thorough and detailed data analysis aimed at understanding and curbing customer churn in various business settings. Our analysis revealed the key finding stipulated above, paving the way for targeted interventions. By implementing the recommendations, it has the potential to mitigate churning of customers, ultimately leading to increased customer loyalty and brand success.*
+#### *In summary, this project encapsulates a thorough and detailed data analysis aimed at understanding and curbing customer churn in various business settings. Our analysis revealed the key finding stipulated above, paving the way for targeted interventions. By implementing the recommendations, it has the potential to mitigate churning of customers, ultimately leading to increased customer loyalty and brand success.*
 
 <p align="center">
 <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/blob/main/Case%20Study%20Analyzing%20Customer%20Churn%20in%20Power%20BI.gif"/>
 </p>
 
 
-### *Further research could explore for time-series (if the dataset is available, since in this dataset it's not available) related insights to deepen our understanding of churn behavior and its multifaceted drivers.*
+#### *Further research could explore for time-series (if the dataset is available, since in this dataset it's not available) related insights to deepen our understanding of churn behavior and its multifaceted drivers.*
 
 # Thank you!
