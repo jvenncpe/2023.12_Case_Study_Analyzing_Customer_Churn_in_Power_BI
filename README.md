@@ -1,5 +1,7 @@
 #### *Personal Project: December 2023*
 
+<iframe title="Report Section" width="1024" height="804" src="https://app.powerbi.com/view?r=eyJrIjoiYjhiOGMyYzgtMDlhZS00Nzg0LWFhOTAtN2VjMzA1OGRlZGMxIiwidCI6IjQwNWNhNjU3LThiNjQtNDAwMy04ZDMyLTkyYWYyZjU5Y2UwNCIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
+
 <p align="center">
 <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/blob/main/Case%20Study%20Analyzing%20Customer%20Churn%20in%20Power%20BI.gif"/>
 </p>
