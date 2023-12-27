@@ -4,7 +4,7 @@
 <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/blob/main/Case%20Study%20Analyzing%20Customer%20Churn%20in%20Power%20BI.gif"/>
 </p>
 
-#### [Power BI - Output Link Here](https://app.powerbi.com/view?r=eyJrIjoiYjhiOGMyYzgtMDlhZS00Nzg0LWFhOTAtN2VjMzA1OGRlZGMxIiwidCI6IjQwNWNhNjU3LThiNjQtNDAwMy04ZDMyLTkyYWYyZjU5Y2UwNCIsImMiOjEwfQ%3D%3D)
+#### [Power BI Report View - Output Link Here](https://app.powerbi.com/view?r=eyJrIjoiYjhiOGMyYzgtMDlhZS00Nzg0LWFhOTAtN2VjMzA1OGRlZGMxIiwidCI6IjQwNWNhNjU3LThiNjQtNDAwMy04ZDMyLTkyYWYyZjU5Y2UwNCIsImMiOjEwfQ%3D%3D)
 
 # Case Study: Analyzing Customer Churn in Power BI 
 
