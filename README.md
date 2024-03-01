@@ -141,10 +141,9 @@ This dataset holds info on customers, like IDs, if they've churned (stopped usin
 <p align="center"><br></p>
 
 > Call-Out Cards
-<p> 
-    <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/034746b3-8490-492b-bcb8-88353573f2d7"/>&nbsp;
-    <img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/f0c31ef4-2020-4f46-8e56-219bb6c22b3b"/>&nbsp;
-</p>
+<p align="center"><img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/034746b3-8490-492b-bcb8-88353573f2d7"/>&nbsp;</p>
+<p align="center"><img src="https://github.com/jvenncpe/2023.12_Case_Study_Analyzing_Customer_Churn_in_Power_BI/assets/35190918/f0c31ef4-2020-4f46-8e56-219bb6c22b3b"/>&nbsp;</p>
+
 <p align="center"><br></p>
 
 > Visual Table Holders
